@@ -5,9 +5,7 @@ export default function Footer() {
   return (
     <footer className="w-full bg-[#171717] text-white pt-16 pb-8">
       <div className="max-w-6xl mx-auto px-6 space-y-12">
-       
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-          
           <div className="space-y-4">
             <a
               href="#"
@@ -15,10 +13,10 @@ export default function Footer() {
               FASHIONISE
             </a>
             <p className="text-xs text-gray-400 leading-relaxed max-w-sm">
-              Vel non nibh vestibulum massa ullamcorper. Bibendum ultrices
-              venenatis, id id sed massa commodo eros duis at cras neque.
+              Legal & Copyright© 2026 YourCompany. All rights reserved.Privacy
+              Policy | Terms of ServiceCookie Settings | Accessibility Statement
             </p>
-            
+
             <div className="flex items-center gap-4 text-gray-400 pt-2">
               <a
                 href="#"
@@ -47,7 +45,6 @@ export default function Footer() {
             </div>
           </div>
 
-  
           <div className="space-y-4">
             <h3 className="text-xs uppercase tracking-[0.25em] font-semibold text-gray-300">
               QUICK LINKS
