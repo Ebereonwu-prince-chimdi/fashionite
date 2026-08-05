@@ -3,6 +3,14 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
+import './Footer.jsx'
+import "./Hero.jsx";
+import "./LatestPosts.jsx";
+import "./NewsLetter.jsx";
+import "./PopularPosts.jsx";
+import "./ShopItNow.jsx";
+import "./TopVideos.jsx";
+import "./Header.jsx";
 
 function App() {
   const [count, setCount] = useState(0)
