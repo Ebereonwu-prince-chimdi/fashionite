@@ -1,13 +1,13 @@
 import React from "react";
-import { Facebook, Twitter, Instagram, Pinterest, Youtube } from "lucide-react";
+import { Share2, Globe, MessageSquare, Video } from "lucide-react";
 
 export default function Footer() {
   return (
     <footer className="w-full bg-[#171717] text-white pt-16 pb-8">
       <div className="max-w-6xl mx-auto px-6 space-y-12">
-        
+       
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-         
+          
           <div className="space-y-4">
             <a
               href="#"
@@ -18,42 +18,36 @@ export default function Footer() {
               Vel non nibh vestibulum massa ullamcorper. Bibendum ultrices
               venenatis, id id sed massa commodo eros duis at cras neque.
             </p>
-           
+            
             <div className="flex items-center gap-4 text-gray-400 pt-2">
               <a
                 href="#"
-                aria-label="Facebook"
+                aria-label="Social Link 1"
                 className="hover:text-white transition-colors">
-                <Facebook size={16} />
+                <Share2 size={16} />
               </a>
               <a
                 href="#"
-                aria-label="Twitter"
+                aria-label="Social Link 2"
                 className="hover:text-white transition-colors">
-                <Twitter size={16} />
+                <Globe size={16} />
               </a>
               <a
                 href="#"
-                aria-label="Instagram"
+                aria-label="Social Link 3"
                 className="hover:text-white transition-colors">
-                <Instagram size={16} />
+                <MessageSquare size={16} />
               </a>
               <a
                 href="#"
-                aria-label="Pinterest"
+                aria-label="Social Link 4"
                 className="hover:text-white transition-colors">
-                <Pinterest size={16} />
-              </a>
-              <a
-                href="#"
-                aria-label="Youtube"
-                className="hover:text-white transition-colors">
-                <Youtube size={16} />
+                <Video size={16} />
               </a>
             </div>
           </div>
 
-         
+  
           <div className="space-y-4">
             <h3 className="text-xs uppercase tracking-[0.25em] font-semibold text-gray-300">
               QUICK LINKS
@@ -87,7 +81,6 @@ export default function Footer() {
             </ul>
           </div>
 
-         
           <div className="space-y-4">
             <h3 className="text-xs uppercase tracking-[0.25em] font-semibold text-gray-300">
               CATEGORIES
@@ -122,7 +115,6 @@ export default function Footer() {
           </div>
         </div>
 
-        
         <div className="border-t border-gray-800 pt-6 flex flex-col sm:flex-row justify-between items-center text-[10px] uppercase tracking-widest text-gray-500 gap-4">
           <p>© FASHIONISE. ALL RIGHTS RESERVED.</p>
           <p>DESIGNED BY TEMPLATES JUNGLE</p>
